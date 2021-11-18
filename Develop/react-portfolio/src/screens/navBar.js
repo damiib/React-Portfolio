@@ -14,10 +14,11 @@ function navBar() {
     return (
         <div id="home">
             <Navbar expand="md">
+                CollapseOnSelect
           <Navbar.Brand href="#home">Damali</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-          <Navbar.Collapse>
-<Nav>
+          <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem'}}>
+<Nav className="links" style={{margin: '0 1rem'}}>
     {createLinks()}
 </Nav>
 

@@ -1,0 +1,10 @@
+.main-info{
+    display: flex;
+    position:absolute
+    
+    z-index:1
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
