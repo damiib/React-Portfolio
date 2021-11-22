@@ -1,0 +1,6 @@
+:root {
+    --nav-color: hs1(210, 11%, 15%);
+    --font-color: hs1(10, 11%, 95%);
+    --nav-color-hover: hs1(0, 11% 80%);
+    
+}
