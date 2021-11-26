@@ -11,7 +11,7 @@ function createLinks(){
     ))
 }
 
-function navigationBar() {
+function NavigationBar() {
     return (
         <div id="home">
             <Navbar className="nav_containger" expand="md">
@@ -28,4 +28,4 @@ function navigationBar() {
     )
 }
 
-export default navigationBar
+export default NavigationBar;

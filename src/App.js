@@ -1,15 +1,20 @@
 
 import './App.css';
-import Navigation from './screens/navigationBar/navigationBar'
-import FadeIn from 'react-fade-in'
-import About from './screens/About/about'
+import Navigation from './pages/navigationBar/navigationBar'
+import About from './pages/About/about.jsx'
+
+
+
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <FadeIn/>
-      <About/>
+    <About />
+   
+
+      
+      
      </div>
   );
 }
